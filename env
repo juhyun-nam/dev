@@ -1,0 +1,39 @@
+# docker
+
+```
+curl -fsSL https://get.docker.com/ | sudo sh
+sudo usermod -aG docker $USER
+```
+
+# JetBrainsMono
+
+https://github.com/JetBrains/JetBrainsMono
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)"
+```
+
+# vscode 
+
+https://github.com/microsoft/vscode/releases
+
+# brew
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
+
+# tmux
+
+in .tmux.conf
+
+```
+set -g default-terminal "screen-256color"
+setw -g mode-keys vi
+```
+
+# oh-my-zsh
+
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
