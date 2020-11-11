@@ -32,3 +32,4 @@ curl https://juhyun-nam.github.io/dev/docker | bash
 * oh-my-zsh
 * tmux
 * cmake
+* puml-docker
